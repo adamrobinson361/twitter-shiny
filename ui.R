@@ -18,6 +18,7 @@ dashboardSidebar(
   actionButton("btn_run", "Run")
 ),
 dashboardBody(
+  tags$head(tags$script(src = "google-analytics.js")),
   fluidRow(
        box(plotOutput("distPlot")),
        box(plotOutput("wordcloud"))
