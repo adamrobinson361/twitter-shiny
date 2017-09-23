@@ -1,3 +1,6 @@
 packrat/lib*/
 .httr-oauth
 .Rproj.user
+.Rhistory
+rsconnect/
+.httr-oauth
